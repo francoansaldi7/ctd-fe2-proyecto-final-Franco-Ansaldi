@@ -20,20 +20,13 @@ import {
   BotonSuscribir,
   CotenedorTexto,
 } from "./styled";
-
-export interface INoticiasNormalizadas {
-  id: number;
-  titulo: string;
-  descripcion: string;
-  fecha: number | string;
-  esPremium: boolean;
-  imagen: string;
-  descripcionCorta?: string;
-}
+import {IModal, INoticiasNormalizadas} from "./types";
 
 const Noticias = () => {
   const [noticias, setNoticias] = useState<INoticiasNormalizadas[]>([]);
-  const [modal, setModal] = useState<INoticiasNormalizadas | null>(null);
+  const [modal, setModal] = useState<IModal>({
+    noticia: null,
+    visible: false,});
 
   useEffect(() => {
     const obtenerInformacion = async () => {
