@@ -1,4 +1,4 @@
-import { TarjetaModal, ContenedorModal } from "../styled";
+import { TarjetaModal, ContenedorModal } from "../styles";
 import { INoticiasNormalizadas, IModal } from "../types";
 import { Dispatch, SetStateAction } from "react";
 import PremiumModal from "./PremiumModal";

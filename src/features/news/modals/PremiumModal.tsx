@@ -7,7 +7,7 @@ import {
     ImagenModal,
     TituloModal,
     CotenedorTexto,
-} from "../styled";
+} from "../styles";
 
 interface IProps {
     setModal: Dispatch<SetStateAction<IModal>>;

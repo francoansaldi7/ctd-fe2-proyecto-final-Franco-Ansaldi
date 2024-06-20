@@ -7,7 +7,7 @@ import {
   ImagenTarjetaNoticia,
   TituloTarjetaNoticia,
   BotonLectura,
-} from "../styled";
+} from "../styles";
 
 interface IProps {
   noticia: INoticiasNormalizadas;

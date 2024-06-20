@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { obtenerNoticias } from "./fakeRest";
-import { ContenedorNoticias, ListaNoticias, TituloNoticias } from "./styled";
+import { ContenedorNoticias, ListaNoticias, TituloNoticias } from "./styles";
 import CardNoticia from "./cards/CardNoticia";
 import NoticiaModal from "./modals/NoticiaModal";
 import { IModal, INoticiasNormalizadas } from "./types";

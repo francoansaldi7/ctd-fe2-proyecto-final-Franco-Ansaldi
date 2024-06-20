@@ -1,4 +1,4 @@
-import { BotonSuscribir } from "../../styled";
+import { BotonSuscribir } from "../../styles";
 import { Dispatch, SetStateAction } from "react";
 import { IModal } from "../../types";
 

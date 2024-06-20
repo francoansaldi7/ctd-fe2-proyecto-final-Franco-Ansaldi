@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { shallowEqual } from "react-redux";
-import { Boton, Input, AutorCita, ContenedorCita, TextoCita } from "./styled";
+import { Boton, Input, AutorCita, ContenedorCita, TextoCita } from "./styles";
 import { useAppSelector, useAppDispatch } from "../../app/hooks";
 import {
   obtenerCitaDelEstado,
